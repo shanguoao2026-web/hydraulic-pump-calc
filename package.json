@@ -1,0 +1,19 @@
+{
+  "name": "hydraulic-pump-calc",
+  "version": "1.0.0",
+  "description": "Hydraulic gear and piston pump drive sizing CLI",
+  "license": "MIT",
+  "author": "shanguoao2026-web",
+  "type": "module",
+  "bin": { "hydraulic-pump-calc": "dist/cli.js" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test",
+    "start": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.7.0"
+  }
+}
